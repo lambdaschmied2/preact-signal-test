@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited {
+    color: var(--color-primary)
+}
+
+table {
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-spacing: 0;
+    margin-top: 1em;
+}
+
+th {
+    text-align: left;
+}
+
+td,
+th {
+    padding: 0 var(--spacing-2) var(--spacing-2) 0;
+}
